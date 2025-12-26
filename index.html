@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <header class="bg-black flex items-center justify-between px-[100px] py-[30px]">
+        <img src="./Exclude.svg" alt="">
+        <div class="flex gap-[50px]">
+        <h2 class="text-[white] hover:text-[orange]">Services</h2>
+        <h2 class="text-[white] hover:text-[orange]">About</h2>
+        <h2 class="text-[white] hover:text-[orange]">Сontacts</h2>
+        </div>
+    </header>
+     
+>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Yuqori qism - Hero Image */
+        .hero-section {
+            width: 100%;
+            height: 400px;
+            background-image: url(./image\ 168.svg); /* Rasmingiz manzilini qo'ying */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #007bff;
+        }
+
+        /* Grid tizimi */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        /* Kartochka stillari */
+        .service-card {
+            border-radius: 12px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+        .service-card:hover {
+            transform: scale(1.02);
+        }
+
+        /* Ranglar */
+        .bg-yellow { background-color: #ffcc66; }
+        .bg-orange { background-color: #ff6633; }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background-image: url(./image\ 162.svg);
+            margin-bottom: 15px;
+            background-color: white; /* Haqiqiy rasm bo'lsa buni o'chirib tashlang */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .service-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #222;
+            text-transform: uppercase;
+        }
+
+        /* Footer qismi */
+        .footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ccc;
+        }
+
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 14px;
+        }
+
+        /* Mobil qurilmalar uchun */
+        @media (max-width: 600px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero-section {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="hero-section"></div>
+
+    <div class="services-grid">
+        <div class="service-card bg-yellow">
+            <div class="service-icon"><img src="./image 162.svg" alt=""></div>
+            <div class="service-title">SEO</div>
+        </div>
+
+        <div class="service-card bg-yellow">
+            <div class="service-icon"><img src="./image 161.svg" alt=""></div>
+            <div class="service-title">Development</div>
+        </div>
+
+        <div class="service-card bg-orange">
+            <div class="service-icon"><img src="./image 164 (1).svg" alt=""></div>
+            <div class="service-title">Context</div>
+        </div>
+
+        <div class="service-card bg-yellow">
+            <div class="service-icon"><img src="./image 165 (1).svg" alt=""></div>
+            <div class="service-title">SERM</div>
+        </div>
+
+        <div class="service-card bg-yellow">
+            <div class="service-icon"><img src="./image 166.svg" alt=""></div>
+            <div class="service-title">CRM</div>
+        </div>
+
+        <div class="service-card bg-orange">
+            <div class="service-icon"><img src="./image 167.svg" alt=""></div>
+            <div class="service-title">Web Scraping</div>
+        </div>
+    </div>
+    <header class="bg-black flex items-center justify-between px-[100px] py-[30px]">
+        <img src="./Exclude.svg" alt="">
+        <div class="flex gap-[50px]">
+        <h2 class="text-[white] hover:text-[orange]">Services</h2>
+        <h2 class="text-[white] hover:text-[orange]">About</h2>
+        <h2 class="text-[white] hover:text-[orange]">Сontacts</h2>
+        <span>©2023Gose gro privasy policy</span>
+        </div>
+    </header>
+ 
+
+</body>
+</html>
+</body>
+</html>
